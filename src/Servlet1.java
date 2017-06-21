@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 public class Servlet1 extends HttpServlet {
 
 
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
        System.out.println("doGet");
